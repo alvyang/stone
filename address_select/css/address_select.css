@@ -1,0 +1,56 @@
+/*最外部div*/
+.address_mask{
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.2);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	overflow: hidden;
+}
+.address_select{
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	bottom: 0;
+	left: 0;
+	z-index: 1001;
+}
+/*按钮样式 start*/
+.address_btn_box > div{
+	display: inline-block;
+	width: 60px;
+    height: 28px;
+	border-radius: 4px;
+	background-color: #E33333;
+	color: #ffffff;
+	text-align: center;
+	line-height: 28px;
+	font-size: 14px;
+}
+.address_btn_box .btn_cancel{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.address_btn_box .btn_confirm{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+/*按钮样式 end*/
+/*地址选择样式 start*/
+.address_roll{
+	display: -webkit-box;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	font-weight: bold;
+	font-size: 0;
+}
+.address_roll > div{
+	width: 33%;
+}
+/*地址选择样式 end*/

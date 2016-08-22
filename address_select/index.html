@@ -2,13 +2,26 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		
-		<script src="js/address_select.js"></script>
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<link rel="stylesheet" href="css/address_select.css" />
+		<style>
+			body{
+				margin: 0;
+				padding: 0;
+				font-family: "微软雅黑";
+			}
+			#input_address{
+				width: 96%;
+				height: 30px;
+				margin-left: 2%;
+				margin-top: 10px;
+				border: solid 1px #e33333;
+			}
+		</style>
 		<title>移动端地址选择器</title>
 	</head>
 	<body>
-		<input type="text" id="input-address" />
+		<input type="text" readonly="readonly" id="input_address" />
 	</body>
 	<script src="js/address_select.js"></script>
 </html>
