@@ -17,8 +17,12 @@
 	bottom: 0;
 	left: 0;
 	z-index: 1001;
+	color:#363837;
 }
 /*按钮样式 start*/
+.address_btn_box{
+    height: 48px;
+}
 .address_btn_box > div{
 	display: inline-block;
 	width: 60px;
@@ -49,8 +53,42 @@
 	overflow: hidden;
 	font-weight: bold;
 	font-size: 0;
+    -webkit-mask: -webkit-linear-gradient(top, #debb47 50%, rgba(36, 142, 36, 0));
 }
 .address_roll > div{
-	width: 33%;
+	position: relative;
+	-webkit-box-flex:1;
+	width: 1%;
+	height: 105px;
+	font-size: 14px;
+	text-align: center;
+    -webkit-mask: -webkit-linear-gradient(bottom, #debb47 50%, rgba(36, 142, 36, 0));
+
+}
+.tooth{
+	height: 32px;
+	line-height: 32px;
+	overflow: hidden;
+}
+.gear{
+    position: absolute;
+    margin-top: 35px;
+    z-index: 2;
+    width: 100%;
+}
+.address_province,.address_city,.address_county{
 }
 /*地址选择样式 end*/
+/*选中的区域start*/
+.select_area{
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    margin: 0;
+    height: 35px;
+    box-sizing: border-box;
+    z-index: 0;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+/*选中的区域end*/
