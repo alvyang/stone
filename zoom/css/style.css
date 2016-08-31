@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg{
+	position: absolute;
+	display: block;
+	width:750px;
+	height:1224px;
+    transform-origin: left top 0px;
+	-webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg img{
+    position: absolute;
+	display: block;
+}
