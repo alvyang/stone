@@ -235,7 +235,7 @@ address.prototype = {
 			_self.name[2] = "";
 		}
 
-
+		_self.trigger.value = _self.name.toString().replace(/,/g," ");
 		console.log("code:"+_self.code.toString());
 		console.log("name:"+_self.name.toString());
 		document.body.removeChild(this.addressMask);
