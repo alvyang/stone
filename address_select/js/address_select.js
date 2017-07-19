@@ -80,8 +80,6 @@ address.prototype = {
 			var city = _self.addressMask.querySelector(".address_city");
 			var county = _self.addressMask.querySelector(".address_county");
 			
-			
-			
 			province.addEventListener("touchstart",touchStart);
 			city.addEventListener("touchstart",touchStart);
 			county.addEventListener("touchstart",touchStart);
